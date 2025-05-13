@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BD Fashion Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">BD FASHION</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Trendy Men's Wear in Bangladesh</h1>
+    <p>Shirts, Pants, Watches, Belts & Genji - Everything You Need</p>
+    <a href="#" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Products -->
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Shirt" alt="Shirt">
+        <h3>Stylish Shirt</h3>
+        <p>৳850</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Pant" alt="Pant">
+        <h3>Classic Pant</h3>
+        <p>৳1200</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Watch" alt="Watch">
+        <h3>Modern Watch</h3>
+        <p>৳1500</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Belt" alt="Belt">
+        <h3>Leather Belt</h3>
+        <p>৳450</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x250?text=Genji" alt="Genji">
+        <h3>Comfortable Genji</h3>
+        <p>৳300</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 BD Fashion. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product - Stylish Shirt</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .product-details {
+      max-width: 1000px;
+      margin: 50px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+    }
+    .product-details img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+    .product-info {
+      flex: 1;
+    }
+    .product-info h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .product-info p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BD FASHION</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="product-details">
+    <img src="https://via.placeholder.com/400x500?text=Shirt" alt="Stylish Shirt">
+    <div class="product-info">
+      <h2>Stylish Cotton Shirt</h2>
+      <p><strong>Price:</strong> ৳850</p>
+      <p>This premium cotton shirt is made for comfort and style. Perfect for casual or semi-formal use. Available in multiple sizes.</p>
+      <a href="cart.html" class="btn">Add to Cart</a>
+    </div>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .cart {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .cart-total {
+      text-align: right;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BD FASHION</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <h2>Your Cart</h2>
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Qty</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Stylish Shirt</td>
+        <td>1</td>
+        <td>৳850</td>
+      </tr>
+    </table>
+    <div class="cart-total">
+      <strong>Total: ৳850</strong>
+    </div>
+    <br>
+    <a href="checkout.html" class="btn">Proceed to Checkout</a>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - BD Fashion</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">BD FASHION</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BD Fashion - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">BD FASHION</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart 🛒</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Our Products</h1>
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x250?text=Shirt" alt="Shirt"/>
+      <h3>Stylish Shirt</h3>
+      <p>৳850</p>
+      <button onclick="addToCart('Stylish Shirt', 850)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x250?text=Pant" alt="Pant"/>
+      <h3>Classic Pant</h3>
+      <p>৳1200</p>
+      <button onclick="addToCart('Classic Pant', 1200)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x250?text=Watch" alt="Watch"/>
+      <h3>Modern Watch</h3>
+      <p>৳1500</p>
+      <button onclick="addToCart('Modern Watch', 1500)">Add to Cart</button>
+    </div>
+
+  </div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BD Fashion - Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">BD FASHION</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="checkout.html">Checkout</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Your Cart</h1>
+  <div id="cart-items"></div>
+  <p><strong>Total: ৳<span id="cart-total">0</span></strong></p>
+  <a href="checkout.html" class="btn">Proceed to Checkout</a>
+</main>
+
+<script src="js/script.js"></script>
+<script>
+  renderCart();
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BD Fashion - Checkout</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">BD FASHION</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Checkout</h1>
+  <form onsubmit="return confirmOrder(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="text" placeholder="Phone Number" required>
+    <input type="text" placeholder="Delivery Address" required>
+    <p><strong>Total: ৳<span id="checkout-total">0</span></strong></p>
+    
+    <h3>Payment Instructions (bKash)</h3>
+    <ul>
+      <li>Send payment to bKash Merchant Number: <strong>01XXXXXXXXX</strong></li>
+      <li>Enter Transaction ID below:</li>
+    </ul>
+    <input type="text" placeholder="bKash Transaction ID" required>
+    <button type="submit" class="btn">Confirm Order</button>
+  </form>
+</main>
+
+<script src="js/script.js"></script>
+<script>
+  document.getElementById("checkout-total").innerText = getTotal();
+</script>
+</body>
+</html>
